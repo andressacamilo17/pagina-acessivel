@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #ffffff;
+    background-color: #f8f4f4;
 }
 
 
@@ -27,7 +27,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/fundo.jpg');
+    background-image: url('img/fundo4.webp');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -78,8 +78,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/download.jpeg') top right no-repeat,
-        url('img/png-clipart-the-trend-of-music-notation-elements-musical-elements-trend.png') bottom left no-repeat;
+    background: url('img/images.jpeg') top right no-repeat,
+        url('img/imagem1.1.jpg') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -101,8 +101,8 @@ h2 {
     color: var(--laranja-claro);
 }
 
-#galeria {
-    background-color: #FAF4F4;
+#Fotos {
+    background-color: #fcfcfc;
 
 }
 
@@ -112,7 +112,7 @@ h2 {
 }
 
 #contato {
-    background-image: url('img/4965007.jpg');
+    background-image: url('img/fundo1.jpg');
     background-size: cover;
     padding: 4rem 0;
     /* Espaçamento interno para a seção de contato */
