@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #f8f4f4;
+    background-color: #ffffff;
 }
 
 
@@ -27,7 +27,7 @@ section {
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/fundo4.webp');
+    background-image: url('img/fundo6.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -78,8 +78,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/images.jpeg') top right no-repeat,
-        url('img/imagem1.1.jpg') bottom left no-repeat;
+    background: url('img/imagem2.png') top right no-repeat,
+        url('img/imagem.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -102,7 +102,7 @@ h2 {
 }
 
 #Fotos {
-    background-color: #fcfcfc;
+    background-color: #fff5f5;
 
 }
 
@@ -120,12 +120,12 @@ h2 {
 }
 
 .formulario {
-    background-color: #ffffff;
+    background-color: #f5ecec;
     padding: 2rem;
     /* Espaçamento interno dentro do formulário */
     border-radius: 10px;
     /* Borda arredondada para o formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(238, 230, 230, 0.1);
     /* Sombra suave para destacar o formulário */
     font-weight: bold;
 }
@@ -138,5 +138,5 @@ h2 {
 
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
-    background-color: #F1EDEF;
+    background-color: #fff3f3;
 }
