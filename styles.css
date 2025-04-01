@@ -141,3 +141,9 @@ h2 {
     background-color: #fff3f3;
 }
 
+.menu-acessibilidade{
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
