@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded',function(){
-const botaoAcessibilidade = document.getElementById('botao-acessibilidade');
-const opcoesAcessibilidade = document.getElementById('opcoes-acessibilidade');
+const botaoDeAcessibilidade = document.getElementById('botao-acessibilidade');
+const opcoesDeAcessibilidade = document.getElementById('opcoes-acessibilidade');
 
-botaoAcessibilidade,this.addEventListener('click', function(){
-    botaoAcessibilidade.classList.toggle('rotacao-botao');
-    opcoesAcessibilidade.classList.toggle('apresenta-lista');
+botaoDeAcessibilidade.addEventListener('click', function(){
+    botaoDeAcessibilidade.classList.toggle('rotacao-botao');
+    opcoesDeAcessibilidade.classList.toggle('apresenta-lista');
 })
 
     const aumentaFonteBotao = document.getElementById('aumentar-fonte');
@@ -22,6 +22,9 @@ botaoAcessibilidade,this.addEventListener('click', function(){
         tamanhoAtualFonte -= 0.1;
         document.body.style.fontSize = `${tamanhoAtualFonte}rem`
         
+        })
+        alternaContraste.addEventListener('click', function () {
+            document.body.classList.toggle('alto-contraste')
         })
     
     })
